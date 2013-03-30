@@ -55,7 +55,7 @@ public class Glavna {
 		unos.close();
 
 
-		
+		// samo testiram pull request
 		System.out.println("Vlasnik prvog racuna:\nime:  "
 				+ polazniRacun.getVlasnikRacuna().getIme() + "\nprezime:  "	+ polazniRacun.getVlasnikRacuna().getPrezime() + "\noib:  "
 				+ polazniRacun.getVlasnikRacuna().getOib() + "\nbroj raèuna: " + polazniRacun.getBrojRacuna() + 
