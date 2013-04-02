@@ -15,7 +15,6 @@ public class DeviznaTransakcija extends Transakcija implements Devizna {
 		
 		if ("EURO".equals(valuta) || "euro".equals(valuta)) {
 			BigDecimal iznos = iznosZaPrebaciti.divide(TECAJ_EUR_KN, 2, RoundingMode.HALF_UP);
-			System.out.println("sto ne radi?");
 			return iznos;
 			}
 		else return iznosZaPrebaciti;
